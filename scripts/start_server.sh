@@ -1,3 +1,5 @@
 #!/bin/bash
-service mysqld start
-service httpd start
+sudo systemctl start httpd
+sudo systemctl enable httpd
+sudo systemctl start mariadb
+sudo systemctl enable mariadb
