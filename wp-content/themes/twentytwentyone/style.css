@@ -155,7 +155,7 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 	--global--color-red: #e4d1d1;
 	--global--color-orange: #e4dad1;
 	--global--color-yellow: #eeeadd;
-	--global--color-white: #fff;
+	--global--color-white: #768331;
 	--global--color-white-50: rgba(255, 255, 255, 0.5);
 	/* white 50% opacity used in form fields.*/
 	--global--color-primary: var(--global--color-dark-gray);
