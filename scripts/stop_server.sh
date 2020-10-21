@@ -3,7 +3,7 @@ isExistApp=`pgrep httpd`
 if [[ -n  $isExistApp ]]; then
    service httpd stop
 fi
-isExistApp=`pgrep mariadb`
+isExistApp=`pgrep mysqld`
 if [[ -n  $isExistApp ]]; then
-    service mariadb stop
+    service mysqld stop
 fi
